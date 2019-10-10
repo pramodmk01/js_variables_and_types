@@ -18,6 +18,30 @@
 // e.g “Learning is fun” should output will be 15.
 
 // Challenge 6.
-var city = "Dharamshala";
-var country = "India";
+// var city = "Dharamshala";
+// var country = "India";
 // Alert the above variable like "Dharamshala, India";
+
+// -----------------------------
+console.log( "Im learning javascript" )//chal 1
+
+let admin; //chal2
+let name;
+name = "John";
+admin = name;
+alert(admin);
+
+alert("Hello world"); //chal3
+
+let greetings = prompt("Name of person");//chal4
+alert(`Welocme ${greetings}`);
+
+let lengthOfString = prompt("display the length of the string"); // chall 5
+let store;
+store =lengthOfString.length;
+alert(store);
+
+let country1; //cal6
+country1= "India";
+let city1= "Dharmshala";
+alert(`${country1}, ${city1}`);
