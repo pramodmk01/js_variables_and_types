@@ -29,7 +29,7 @@ var $42;       valid
 var userName;  valid
 var x, y, z;   valid
 var x = 5, y = 6, z = 7;  valid
-var x = 5 + 10 + 2;    invalid
+var x = 5 + 10 + 2;   valid
 ```
 
 ## Basic Operations
@@ -41,16 +41,16 @@ Solve this using mathematical operations. (+, -, *, / , etc)
 ```js
 var amount = 2080;
 // Define a new variable and store the value that is 80 less then the value of amount.      
-let subVar =amount-80;
+let subVar = amount - 80;
 
 // Define a new variable and store the value that is 200 more then the value of amount.     
-let addVar=amount+200;
+let addVar = amount + 200;
 
 // Define a new variable and store the value that is 4 times the value of amount.          
- let mulVar = amount*4;
+ let mulVar = amount * 4;
 
 // Define a new variable and store the reminder when the value of amount is  divided by 21.  
-let divVar = amount/21;
+let divVar = amount / 21;
 ```
 
 Logical Operation:

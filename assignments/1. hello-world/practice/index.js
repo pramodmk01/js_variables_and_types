@@ -23,7 +23,7 @@
 // Alert the above variable like "Dharamshala, India";
 
 // -----------------------------
-console.log("Im learning javascript")//chal 1
+console.log( "Im learning javascript" )//chal 1
 
 let admin; //chal2
 let name;
